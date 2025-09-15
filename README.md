@@ -1,16 +1,31 @@
-# loginregister_flutter
+# Flutter Login & Register App
 
-A new Flutter project.
+Proyek ini dibuat sebagai bagian dari **Praktikum Pemrograman Perangkat Bergerak**.  
+Aplikasi ini merupakan implementasi sederhana dari **Form Login dan Registrasi** menggunakan Flutter.
 
-## Getting Started
+## Deskripsi
+Aplikasi ini memiliki fitur:
+- **Registrasi**: Pengguna dapat membuat akun baru dengan nama lengkap, email, dan password.
+<img width="1366" height="768" alt="loogin register 3" src="https://github.com/user-attachments/assets/3d4b69f8-e105-49ce-a619-0886170fe757" />
+<img width="1366" height="768" alt="login register 4" src="https://github.com/user-attachments/assets/0399dfd9-74e2-4fa0-adea-5d00d0d3b348" />
+![Uploading login register 5.PNG…]()
 
-This project is a starting point for a Flutter application.
+- **Login**: Pengguna dapat masuk menggunakan email dan password yang sudah terdaftar.
+- **Home Page**: Setelah login berhasil, pengguna diarahkan ke halaman utama yang menampilkan nama pengguna.
+- **Logout**: Pengguna dapat keluar kembali ke halaman login.
+- Data pengguna disimpan sementara di dalam variabel global (`Map`) pada file `user_data.dart`.
+  
+## Fitur Utama
+1. **UI Modern** dengan gradient background.
+2. **TextField Input** untuk Nama, Email, dan Password.
+3. **Validasi sederhana** (cek kolom tidak kosong).
+4. **Navigasi antar halaman** dengan `Navigator.push`, `Navigator.pop`, dan `Navigator.pushReplacement`.
+5. **Dialog Box (AlertDialog)** untuk pesan sukses/gagal.
+6. **Logout** kembali ke halaman login.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara Menjalankan
+1. Pastikan sudah menginstall **Flutter SDK** dan editor (VS Code / Android Studio).
+2. Clone atau download project ini.
+3. Masuk ke folder project:
+   ```bash
+   cd flutter_login
